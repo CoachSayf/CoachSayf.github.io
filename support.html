@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="style.css">
+        <title>CoachSayf</title>
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-sm bg-dark" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a id="brand" class="navbar-brand" href="index.html">CoachSayf</a>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul id="nav" class="navbar-nav me-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html"><span>Home</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="offers.html"><span>Offers</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="support.html"><span>Support</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="min-vh-100" lang="ar" dir="rtl">
+            <div class="d-flex justify-content-center align-items-center flex-sm-row flex-column bg-primary p-4">
+                <div class="w-50 d-sm-inline d-flex justify-content-center align-items-center flex-row fs-1 text-white">
+                    <div id="envelope-fill">
+                        <i class="bi bi-envelope-fill"></i>
+                    </div>
+                    <div id="at">
+                        <i class="bi bi-at"></i>
+                    </div>
+                    <div id="question-square-fill">
+                        <i class="bi bi-question-square-fill"></i>
+                    </div>
+                </div>
+                <form class="p-4 rounded bg-light" action="/">
+                    <h1>اتصل بنا</h1>
+                    <hr>
+                    <h6 class="mt-4">معلوماتك</h6>
+                    <input class="w-100 p-2 my-2 border border-primary rounded" type="text" id="name" placeholder="الاسم الكامل" required>
+                    <input class="w-100 p-2 my-2 border border-primary rounded" type="text" id="email" placeholder="الايميل" required>
+                    <input class="w-100 p-2 my-2 border border-primary rounded" type="text" id="phone" placeholder="رقم الهاتف" required>
+                    <h6 class="mt-4">الرسالة</h6>
+                    <textarea class="w-100 p-2 my-2 border border-secondary rounded" id="message" rows="10"></textarea>
+                    <button class="btn btn-primary w-100 p-2 fs-2" type="submit" href="/">ارسال</button>
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <div class="d-flex flex-wrap justify-content-around align-items-center py-4 m-4 border-top">
+                <div class="d-flex align-items-center">
+                    <span class="text-muted">&copy; 2024 CoachSayf - All rights reserved</span>
+                </div>
+                <ul class="nav col-md-4 justify-content-end d-flex">
+                    <li class="ms-4"><a class="text-muted" href="#"><i class="bi bi-instagram"></i></a></li>
+                    <li class="ms-4"><a class="text-muted" href="#"><i class="bi bi-facebook"></i></a></li>
+                </ul>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    </body>
+</html>
